@@ -1,6 +1,6 @@
 # template_start
 
-A new Flutter project.
+Template para novos projetos.
 
 ## Getting Started
 
