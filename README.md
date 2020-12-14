@@ -12,7 +12,7 @@ A Flutter project to guide the developer on a new project with the proper archit
 Esse projeto pré-estruturado foi montado com objetivo de ajudar desenvolvedores no momento de iniciar novos projetos em Flutter.
 A estrutura de pastas está organizada de forma que as devidas funções fiquem divididas em locais específicos, visando organização da aplicação.
 
-1. _..."lib\app"... folder_
+1. _"lib\app" folder_
 
     Pasta raiz da aplicação, é aqui qua a aplicação principal, constantes e temas estão localizados
 
