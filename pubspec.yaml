@@ -61,10 +61,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: <NOME DA FONTE>
-  #     fonts:
-  #       - asset: assets\fonts\
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets\fonts\Quicksand\Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets\fonts\Quicksand\Quicksand-Light.ttf
+          weight: 300
+        - asset: assets\fonts\Quicksand\Quicksand-Regular.ttf
+    - family: Maven Pro
+      fonts:
+        - asset: assets\fonts\Maven_Pro\MavenPro-Bold.ttf
+          weight: 700
+        - asset: assets\fonts\Maven_Pro\MavenPro-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

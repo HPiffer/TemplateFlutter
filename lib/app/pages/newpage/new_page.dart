@@ -1,22 +1,9 @@
 import 'package:flutter/material.dart';
 
 // =========================================== //
-// Home Page
+// New Page Template
 // =========================================== //
-class HomePage extends StatefulWidget {
-  final String title;
-  final String subtitle;
-
-  HomePage({
-    @required this.title,
-    @required this.subtitle,
-  });
-
-  @override
-  _HomePageState createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
+class NewPage extends StatelessWidget {
   // =========================================== //
   // Declarations
   // =========================================== //
@@ -24,7 +11,6 @@ class _HomePageState extends State<HomePage> {
   // =========================================== //
   // Functions
   // =========================================== //
-  // TODO code functions here
 
   // =========================================== //
   // Screen
@@ -33,10 +19,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('New Page'),
       ),
       body: Center(
-        child: Text(widget.subtitle),
+        child: Text('Insert here your page'),
       ),
     );
   }

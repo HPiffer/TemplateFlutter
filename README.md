@@ -23,10 +23,6 @@ A estrutura de pastas está organizada de forma que as devidas funções fiquem 
 
     Pasta raiz da aplicação, é aqui qua a aplicação principal, constantes e temas estão localizados;
 
-3. _**lib\app\interfaces** folder_
-
-    Localização das interfaces da aplicação que serão implementadas posteriormente;
-
 4. _**lib\app\models** folder_
 
     Pasta que abriga os Modelos básicos para as regras de negócio da aplicalçao;
@@ -38,14 +34,6 @@ A estrutura de pastas está organizada de forma que as devidas funções fiquem 
     5.1. _**lib\app\pages\< PageName >\widgets**_
 
         Localizado dentro da pasta da página, contém os widgets utilizados pela mesma para sua construção;
-
-6. _**lib\app\services** folder_
-
-    Serviços utilizados pela aplicação, no exemplo vemos autilização do _Shared Preferences_ em conjunto com a interface criada utilizando do serviço de armazenamento local.
-
-7. _**lib\app\viewmodels** folder_
-
-    Pasta utilizada para componentizar algumas regras de negócio em paralelo ao controller
 
 > en-EU
 
@@ -62,10 +50,6 @@ The folder structure is organized so that the proper functions are divided into 
 
     Root application folder, this is where the main application, constants and themes are located;
 
-3. _**lib\app\interfaces** folder_
-
-    Location of application interfaces that will be implemented later;
-
 4. _**lib\app\models** folder_
 
     Folder that houses the Basic Models for the business rules of the application;
@@ -77,11 +61,3 @@ The folder structure is organized so that the proper functions are divided into 
     5.1. _**lib\app\pages\< PageName >\widgets** folder_
 
         Located inside the page folder, it contains the widgets used by the same for its construction;
-
-6. _**lib\app\services** folder_
-
-    Services used by the application, in the example we see the use of _Shared Preferences_ together with the interface created using the local storage service.
-
-7. _**lib\app\viewmodels** folder_
-
-    Folder used to componentize some business rules in parallel to the controller
